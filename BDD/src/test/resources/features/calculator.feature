@@ -1,7 +1,7 @@
 @tag
 Feature: Calculator
 
-Scenario Outline: add two numbers
+Scenario Outline: calculate power, multiply, and divide of two numbers
 	Given Two input values and an operator, <first>, <second>, and <opt>
 	When I add the two values
 	Then I expect the result <result>
