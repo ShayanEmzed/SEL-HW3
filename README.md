@@ -17,13 +17,14 @@
 در [این کامیت](https://github.com/ShayanEmzed/SEL-HW3/commit/b9ee9a4e227744cb66c992fcb280182847b6dc4a) می‌توان پروژه بدون مشکل undefined را مشاهده کرد.
 
 ## مسئله
-ابتدا scenario outline آورده شده در صورت مسئله را اضافه می‌کنیم.
+ابتدا scenario outline آورده شده در صورت مسئله را اضافه می‌کنیم. یک نمونه سناریو ضرب عادی هم قرار می‌دهیم.
 
-<img width="605" alt="image" src="https://github.com/ShayanEmzed/SEL-HW3/assets/60621655/88445685-555c-4b4b-b32f-4fc5fd7beee9">
+<img width="632" alt="image" src="https://github.com/ShayanEmzed/SEL-HW3/assets/60621655/f0b166fe-4b92-4a8e-bb1c-5d4f821ae23b">
 
-حال MyStepdefs تعریف شده در سوال قبلی را به نوعی تغییر می‌دهیم که سناریو بالا مطابقت داشته باشد. به طور خاص بخش Given را باید به صورت زیر عوض کنیم.
 
-<img width="649" alt="image" src="https://github.com/ShayanEmzed/SEL-HW3/assets/60621655/ee45b24b-7bdd-4b31-bef3-228fb4eded00">
+حال MyStepdefs تعریف شده در سوال قبلی را به نوعی تغییر می‌دهیم که سناریو بالا مطابقت داشته باشد. به طور خاص بخش When را باید به صورت زیر عوض کنیم.
+
+<img width="512" alt="image" src="https://github.com/ShayanEmzed/SEL-HW3/assets/60621655/f8216cb8-ef83-48ac-99c4-0fb06d4b40c8">
 
 در پایان، کلاس Calculator را طبق نیازهای سناریو پیاده می‌کنیم.
 
@@ -31,6 +32,7 @@
 
 همینطور می‌توان دید که تمامی مثال‌ها پاس شده‌اند:
 
-<img width="640" alt="image" src="https://github.com/ShayanEmzed/SEL-HW3/assets/60621655/121da46c-f6d2-4d7b-85b4-6ae03cc91a38">
+<img width="612" alt="image" src="https://github.com/ShayanEmzed/SEL-HW3/assets/60621655/2e90eda1-ea65-42d3-b3d3-8233aae3c59d">
+
 
 
