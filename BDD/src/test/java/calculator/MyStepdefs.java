@@ -10,6 +10,7 @@ public class MyStepdefs {
     private Calculator calculator;
     private int value1;
     private int value2;
+    private char operator;
     private int result;
 
     @Before
@@ -17,16 +18,17 @@ public class MyStepdefs {
         calculator = new Calculator();
     }
 
-    @Given("^Two input values, (-?\\d+) and (-?\\d+)$")
-    public void twoInputValuesAnd(int arg0, int arg1) {
+    @Given("^Two input values and an operator, (-?\\d+), (-?\\d+), and ([*|/|^])$")
+    public void twoInputValuesAnd(int arg0, int arg1, char opt) {
         value1 = arg0;
         value2 = arg1;
+        operator = opt;
     }
 
 
     @When("^I add the two values$")
-    public void iAddTheTwoValues() {
-        result = calculator.add(value1, value2);
+    public void iDoTheOperationOnTwoValues() {
+        result = calculator.doOperation(value1, value2, operator);
         System.out.print(result);
     }
 
